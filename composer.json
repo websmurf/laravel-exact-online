@@ -1,5 +1,5 @@
 {
-  "name": "websmurf/laravel-exact-online",
+  "name": "kirkita/laravel-exact-online",
   "description": "Laravel Facade wrapper for Exact Online PHP API",
   "require": {
     "picqer/exact-php-client": "^3.1",
