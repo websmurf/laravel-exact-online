@@ -26,4 +26,19 @@ return [
      * The Client country code
      */
     'exact_multi_user' => env('EXACT_MULTI_USER', false),
+
+    /**
+     * The Webhook secret
+     */
+    'exact_webhook_secret' => env('EXACT_WEBHOOK_SECRET', ''),
+
+    /**
+     * The web url
+     */
+    'exact_web_url' => env('EXACT_WEB_URL', ''),
+
+    /**
+     * The storage
+     */
+    'exact-api-storage' => env('EXACT_API_STORAGE', 'local'),
 ];
